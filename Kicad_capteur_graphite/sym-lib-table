@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Librairie_projet_capteur)(type Legacy)(uri ${KIPRJMOD}/Librairie_projet_capteur.lib)(options "")(descr ""))
+)
