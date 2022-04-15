@@ -1,17 +1,12 @@
 # 2022_Franco_Alonso_Projet_capteur
- Projet capteur 4GP
 
-
-# Projet Capteur Graphite GRP24
-
-Ce Git contient les ressources nécessaire pour le projet 2021 qui s'inscrit dans l'UF *"Du capteur au banc de Test"* de l'INSA de Toulouse, 4ème année de Génie Physique.
+Ce Git contient les ressources nécessaire pour le projet 2022 qui s'inscrit dans l'UF *"Du capteur au banc de Test"* de l'INSA de Toulouse, 4ème année de Génie Physique.
 
 ## Sommaire
 
 ---
 
 - [2022_Franco_Alonso_Projet_capteur](#2022_franco_alonso_projet_capteur)
-- [Projet Capteur Graphite GRP24](#projet-capteur-graphite-grp24)
   - [Sommaire](#sommaire)
   - [Livrables](#livrables)
   - [Description](#description)
@@ -22,15 +17,10 @@ Ce Git contient les ressources nécessaire pour le projet 2021 qui s'inscrit dan
     - [Bibliotèques](#bibliotèques)
     - [Notre code arduino](#notre-code-arduino)
   - [Projet KICAD](#projet-kicad)
-    - [Image du fichier LT SPICE](#image-du-fichier-lt-spice)
-    - [Représentation électrique des composants principaux](#représentation-électrique-des-composants-principaux)
-    - [Placement des composants](#placement-des-composants)
-    - [Sockets KICAD pour les différents composants](#sockets-kicad-pour-les-différents-composants)
   - [Application Android APK](#application-android-apk)
     - [MIT App inventor](#mit-app-inventor)
     - [Notre application](#notre-application)
   - [Banc de test](#banc-de-test)
-  - [Pistes de réflexion](#pistes-de-réflexion)
   - [Information sur les auteurs](#information-sur-les-auteurs)
 
 ## Livrables
@@ -82,8 +72,7 @@ Les valeurs de tension et de résistance sont aussi visibles dans le moniteur s�
 - Installer la bibliothèque ["Arduino.h"]
 - Installer la bibliothèque ["string.h"]
 - Installer la bibliothèque ["Adafruit_SSD1306.h"]
-  
-- Installer la bibliothèque ["Adafruit BusIOa"](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/Libraries%20ajout%C3%A9es/Adafruit_BusIO-master.zip)
+
 
 ### Notre code arduino
 
@@ -91,15 +80,10 @@ Notre code Arduino permet de:
 
 - Mesurer la tension de sortie du circuit transimpédance
 - Calculer la résistance du capteur de graphite connaissant la fonction de transfert du conditionneur
-- Envoie la mesure de la tension et de la resistance via Bluetooth sur 1 octet
-- Affiche les mesures de tension, de résistance et possède un menu pour choisir entre un offset et un gain numérique sur un écran OLED
-- Gère l'encodeur rotatoire
+- Envoyer la mesure de la tension et de la resistance via Bluetooth sur 1 octet
+- Afficher les mesures de tension, de résistance et possède un menu pour choisir entre un offset et un gain numérique sur un écran OLED
+- Gèrer l'encodeur rotatoire
 
-[_Pour télécharger le code_](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/code/code_avec_encodeur_et_gain_non_fini.ino)
-
-[_Pour télécharger la version pour les mesures(sans encodeur rotatoire)_](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/code/code_banc_test.ino)
-
-```C++
 
 
 !!!!!! METTRE LE CODE ARDUINO !!!!!!!!
@@ -117,39 +101,7 @@ Le projet sur le logiciel KICAD permet de:
 - Interfacer un écran OLED
 - Interfacer un encodeur rotatoire
 
-Projet KICAD avec fichiers formats pdf et format GERBER à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/tree/main/kicad)
-
-### Image du fichier LT SPICE
-
-![alt text](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/Images/LTSPICE.png "Screenshot du fichier LT SPICE pour la conception et la simulation du circuit électrique sur le PCB")
-
-_Aperçu du Shield PCB (empreinte GERBER)_
-
-![PCB pdf](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/kicad/kicad-B_Cu.pdf "Aperçu du shield PCB en pdf")
-
-### Représentation électrique des composants principaux
-
-![alt text](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/Images/Amplificateur.png "Amplificateur")
-
-![alt text](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/Images/Modules.png "Modules")
-
-### Placement des composants
-
-![alt text](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/Images/Placement.png "Placement des composants")
-
-### Sockets KICAD pour les différents composants
-
-- Amplificateur transimpédance
-
-![alt text](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/Images/Amplificateur%20transimpedance.png "Amplificateur transimpédance")
-
-- Module Blueetooth
-
-![alt text](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/Images/Module%20BT.png "modules")
-
-- Encodeur rotatoire
-
-![alt text](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/Images/Encodeur%20rotatoire.png "modules")
+Projet KICAD avec fichiers formats pdf et format GERBER à télécharger [_ici_]
 
 
 ## Application Android APK
@@ -167,28 +119,13 @@ Le site internet de création d'application [_MIT App Inventor_](https://appinve
 
 ### Notre application
 
-Notre code de l'application (format .aia) est à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/APK/Capteur_graph.aia)
+---
 
-Notre code de l'application (format .apk) est à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/APK/Capteur_graph.apk)
 
 ## Banc de test
 
 ---
-Afin de tracer les courbes caractéristiques, on a mesuré la résistance du papier a l’aide d’un objet avec 7 « ponts » de différents rayons de courbure, on a déposé le capteur en papier dessus en faisant attention à reproduire à chaque mesure la même expérience et en déposant le papier au même endroit.. Les résultats sont dans notre [_datasheet_](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/Datasheet.pdf)
 
-_Image du banc de test_
-
-![alt text](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/Images/BancTest.png "banc de test")
-
-## Pistes de réflexion
-
----
-
-- Changer le banc de test car les mesures étaient souvent pas très précises et cela nous a demandé de faire plusieurs capteurs différents afin d'obtenir des résultats satisfaisants.
-
-- Finaliser le code de l'encodeur rotatoire(les résultats de mesure sont fait sans la partie encodeur rotatoire)
-
-- Tester et caractériser plus de capteurs (plus de pistes en graphites avec des différents types de crayons à papier)
 
 ## Information sur les auteurs
 
