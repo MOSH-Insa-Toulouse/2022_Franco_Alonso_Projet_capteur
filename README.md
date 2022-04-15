@@ -28,7 +28,7 @@ Ce repository Git contient les ressources nécessaire pour le projet 2022 qui s'
 ---
 
 - Shield PCB
-- Code Arduino permettant la mesure de la resistance R et la tension, ainsi que le contrôle des fonctionnalités BT, OLED et capteur rotatoire
+- Code Arduino permettant la mesure de la resistance et de la tension du capteur, ainsi que le contrôle des fonctionnalités Banc de Test, OLED et encodeur rotatoire
 - Application android APK réalisée avec MIT APP INVENTOR
 - Datasheet du capteur de déformation
 
