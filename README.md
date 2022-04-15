@@ -1,6 +1,6 @@
 # 2022_Franco_Alonso_Projet_capteur
 
-Ce Git contient les ressources nécessaire pour le projet 2022 qui s'inscrit dans l'UF *"Du capteur au banc de Test"* de l'INSA de Toulouse, 4ème année de Génie Physique.
+Ce repository Git contient les ressources nécessaire pour le projet 2022 qui s'inscrit dans l'UF *"Du capteur au banc de Test"* de l'INSA de Toulouse, 4ème année de Génie Physique.
 
 ## Sommaire
 
