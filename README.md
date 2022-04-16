@@ -104,6 +104,54 @@ Le projet sur le logiciel KICAD permet de:
 Projet KICAD avec fichiers formats pdf et format GERBER à télécharger [_ici_]
 
 
+Schéma du circuit électrique sur LTSpice
+
+
+Schématique de l'amplificateur opérationel LTC1050
+
+
+Schématique du module Bluetooth HC-05
+
+
+Schématique de l'écran OLED
+
+
+Schématique de l'encodeur rotatoire KY-040
+
+
+Schématique des pins de la carte Arduino
+
+
+Schématique du circuit amplificateur transimpédance
+
+
+Empreinte de l'amplificateur opérationel LTC1050
+
+
+Empreinte du module Bluetooth HC-05
+
+
+Empreinte de l'écran OLED
+
+
+Empreinte de l'encodeur rotatoire KY-040
+
+
+Empreinte du PCB en entier
+
+
+Modélisation 3D du PCB
+
+
+
+
+
+![alt text](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/Images/Module%20BT.png "modules")
+
+
+
+
+
 ## Application Android APK
 
 ---
