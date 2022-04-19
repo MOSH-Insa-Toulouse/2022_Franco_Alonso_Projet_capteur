@@ -88,6 +88,9 @@ Notre code Arduino permet de:
 
 !!!!!! METTRE LE CODE ARDUINO !!!!!!!!
 
+Voici un code en C :
+
+
 double Rs;
 int Vcc=5;
 int R1=100000;
