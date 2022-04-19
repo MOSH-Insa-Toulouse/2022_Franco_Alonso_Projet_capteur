@@ -104,55 +104,55 @@ Le projet sur le logiciel KICAD permet de:
 Projet KICAD avec fichiers formats pdf et format GERBER à télécharger [_ici_]
 
 
-- Schéma du circuit électrique sur LTSpice
+- Schéma du circuit électrique sur LTSpice:
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/00df7a800f7fe16d923ac5965e24b1b7b5068f73/Images/LTSpice.PNG)
 
 
-- Schématique de l'amplificateur opérationel LTC1050
+- Schématique de l'amplificateur opérationel LTC1050:
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/c6a64df41f9162deea475fbd48119eca13fc34bf/Images/sch%C3%A9matique%20de%20l'amplificateur%20op%C3%A9rationel%20LTC1050.PNG)
 
 
-- Schématique du module Bluetooth HC-05
+- Schématique du module Bluetooth HC-05:
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/c6a64df41f9162deea475fbd48119eca13fc34bf/Images/sch%C3%A9matique%20du%20module%20Bluetooth%20HC-05.PNG)
 
 
-- Schématique de l'écran OLED
+- Schématique de l'écran OLED:
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/c6a64df41f9162deea475fbd48119eca13fc34bf/Images/sch%C3%A9matique%20de%20l'%C3%A9cran%20OLED_0.91.PNG)
 
 
-- Schématique de l'encodeur rotatoire KY-040
+- Schématique de l'encodeur rotatoire KY-040:
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/c6a64df41f9162deea475fbd48119eca13fc34bf/Images/sch%C3%A9matique%20de%20l'encodeur%20rotatoire%20KY-040.PNG)
 
 
-- Schématique des pins de la carte Arduino
+- Schématique des pins de la carte Arduino:
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/c6a64df41f9162deea475fbd48119eca13fc34bf/Images/sch%C3%A9matique%20des%20pins%20de%20la%20carte%20arduino.PNG)
 
 
-- Schématique du circuit amplificateur transimpédance
+- Schématique du circuit amplificateur transimpédance:
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/c6a64df41f9162deea475fbd48119eca13fc34bf/Images/sch%C3%A9matique%20du%20circuit%20amplificateur%20transimp%C3%A9dance.PNG)
 
 
-- Empreinte de l'amplificateur opérationel LTC1050
+- Empreinte de l'amplificateur opérationel LTC1050:
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/c6a64df41f9162deea475fbd48119eca13fc34bf/Images/Empreinte%20de%20l'amplificateur%20op%C3%A9rationel%20LTC1050.PNG)
 
 
-- Empreinte du module Bluetooth HC-05
+- Empreinte du module Bluetooth HC-05:
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/c6a64df41f9162deea475fbd48119eca13fc34bf/Images/Empreinte%20du%20module%20Bluetooth%20HC-05.PNG)
 
 
-- Empreinte de l'écran OLED
+- Empreinte de l'écran OLED:
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/c6a64df41f9162deea475fbd48119eca13fc34bf/Images/Empreinte%20de%20l'%C3%A9cran%20OLED_0.91.PNG)
 
 
-- Empreinte de l'encodeur rotatoire KY-040
-![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/c6a64df41f9162deea475fbd48119eca13fc34bf/Images/Empreinte%20de%20l'encodeur%20rotatoire%20KY-040.PNG)
+- Empreinte de l'encodeur rotatoir KY-040:
+![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/7be68b19bb3e613d58d9b9c8b4e7bc60a2b68b1f/Images/Empreinte%20de%20l'encodeur%20rotatoire%20KY-040.PNG)
 
 
-- Empreinte du PCB en entier
+- Empreinte du PCB en entier:
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/c6a64df41f9162deea475fbd48119eca13fc34bf/Images/Empreinte%20du%20PCB%20entier.PNG)
 
 
-- Modélisation 3D du PCB
+- Modélisation 3D du PCB:
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/c6a64df41f9162deea475fbd48119eca13fc34bf/Images/Mod%C3%A9lisation%203D%20du%20PCB.PNG)
 
 
