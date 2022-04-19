@@ -105,7 +105,7 @@ Projet KICAD avec fichiers formats pdf et format GERBER à télécharger [_ici_]
 
 
 Schéma du circuit électrique sur LTSpice
-![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/00df7a800f7fe16d923ac5965e24b1b7b5068f73/Images/LTSpice.PNG "LTSpice")
+![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/00df7a800f7fe16d923ac5965e24b1b7b5068f73/Images/LTSpice.PNG)
 
 Schématique de l'amplificateur opérationel LTC1050
 
@@ -146,7 +146,7 @@ Modélisation 3D du PCB
 
 
 
-![alt text](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/Images/Module%20BT.png "modules")
+![alt text](https://github.com/MOSH-Insa-Toulouse/Projet-GRP24-MOSH/blob/main/Images/Module%20BT.png)
 
 
 
