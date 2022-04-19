@@ -148,7 +148,7 @@ Empreinte de l'écran OLED:
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/c6a64df41f9162deea475fbd48119eca13fc34bf/Images/Empreinte%20de%20l'%C3%A9cran%20OLED_0.91.PNG)
 
 
-Empreinte de l'encodeur rotatoir KY-040:
+Empreinte de l'encodeur rotatoir KY-040:  
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/7be68b19bb3e613d58d9b9c8b4e7bc60a2b68b1f/Images/Empreinte%20de%20l'encodeur%20rotatoire%20KY-040.PNG)
 
 
