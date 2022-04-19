@@ -88,6 +88,22 @@ Notre code Arduino permet de:
 
 !!!!!! METTRE LE CODE ARDUINO !!!!!!!!
 
+double Rs;
+int Vcc=5;
+int R1=100000;
+int R3=100000;
+int R5=10000;
+int R2=1000;
+
+
+void Bluetooth_write(double Rs){
+  double Res = Rs;
+  mySerial.println(Res);
+  delay(500);
+}
+
+
+
 
 
 ## Projet KICAD
@@ -188,6 +204,7 @@ Le site internet de création d'application [_MIT App Inventor_](https://appinve
 Edouard FRANCO / Pablo ALONSO RODRIGUEZ
 
 - edouard.franco@free.fr
+- pablo.alonsorgz@gmail.com
 
 Étudiants à l'INSA de Toulouse en 4ème année Génie Physique
 
