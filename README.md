@@ -41,7 +41,7 @@ Dans le cadre de l'UF MOSH, nous avons conçu un capteur résistif composé de m
 Ici, le phénomène physique est l'effet tunnel, en effet, il existe un lien entre la conduction des électrons et la distance interatomique du réseau percolet.  
 En faisant varier la distance séparant les particules du réseau (en pliant une feuille de papier sur laquelle on aura déposé du graphite par exemple), la conductivité du graphite varie, la résistivité varier également, et donc, la résistance variera aussi en fonction des dimensions du capteur. C'est cette propriété que l'on va exploiter afin de créer notre capteur résistif.
 Nous avons également implémenté  un shield sur notre chaine de mesures. Ce dernier a été conçu a l'aide du logiciel KICAD et aura un rôle de conditionneur du signal. Le shield est composé d'un amplificateur transimpédance, d'un module Bluetooth, d'un écran OLED, d'un encodeur rotatoire ainsi que d'une entrée analogique pour le capteur résistif.  
-Pour finir, nous avons effectué l'ensemble des tests du circuit sur le logiciel LTSpice (voir [_Rapport LTSpice_]().  
+Pour finir, nous avons effectué l'ensemble des tests du circuit sur le logiciel LTSpice (voir [_Rapport LTSpice_](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/8504636d878c9423babecade3b70e7a892836c6b/Rapport_LTSpice.pdf)).  
 
 Nous avons ensuite imprimé notre circuit PCB après validation de l'équipe pédagogique.  
 Nous avons utilisé une carte Arduino pour la lecture des mesures et la création des fonctions relatives à l'écran OLED, au module Bluetooth ainsi qu'a l'encodeur rotatoire.  
