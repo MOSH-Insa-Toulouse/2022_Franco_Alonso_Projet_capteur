@@ -37,16 +37,16 @@ Ce repository Git contient les ressources nécessaire pour le projet 2022 qui s'
 ## Description
 
 ---
-Dans le cadre de l'UF MOSH, nous avons conçu un capteur résistif composé de matériaux peu chers. Un simple papier et un crayon nous permettent de créer ce capteur.
-Ici, le phénomène physique est l'effet tunnel, en effet, il existe un lien entre la conduction des électrons et la distance interatomique du réseau percolet.
+Dans le cadre de l'UF MOSH, nous avons conçu un capteur résistif composé de matériaux peu chers. Un simple papier et un crayon nous permettent de créer ce capteur.  
+Ici, le phénomène physique est l'effet tunnel, en effet, il existe un lien entre la conduction des électrons et la distance interatomique du réseau percolet.  
 En faisant varier la distance séparant les particules du réseau (en pliant une feuille de papier sur laquelle on aura déposé du graphite par exemple), la conductivité du graphite varie, la résistivité varier également, et donc, la résistance variera aussi en fonction des dimensions du capteur. C'est cette propriété que l'on va exploiter afin de créer notre capteur résistif.
-Nous avons également implémenté  un shield sur notre chaine de mesures. Ce dernier a été conçu a l'aide du logiciel KICAD et aura un rôle de conditionneur du signal. Le shield est composé d'un amplificateur transimpédance, d'un module Bluetooth, d'un écran OLED, d'un encodeur rotatoire ainsi que d'une entrée analogique pour le capteur résistif.
-Pour finir, nous avons effectué l'ensemble des tests du circuit sur le logiciel LTSpice.
+Nous avons également implémenté  un shield sur notre chaine de mesures. Ce dernier a été conçu a l'aide du logiciel KICAD et aura un rôle de conditionneur du signal. Le shield est composé d'un amplificateur transimpédance, d'un module Bluetooth, d'un écran OLED, d'un encodeur rotatoire ainsi que d'une entrée analogique pour le capteur résistif.  
+Pour finir, nous avons effectué l'ensemble des tests du circuit sur le logiciel LTSpice (voir [_Rapport LTSpice_]().  
 
-Nous avons ensuite imprimé notre circuit PCB après validation de l'équipe pédagogique.
-Nous avons utilisé une carte Arduino pour la lecture des mesures et la création des fonctions relatives à l'écran OLED, au module Bluetooth ainsi qu'a l'encodeur rotatoire.
-Avec le site MIT App Inventor, nous avons développé une application Android qui a pour but de recevoir des données via Bluetooth.
-En ce qui concerne le Banc de test, nous avons effectué un test de rayon de courbure et un test de répétabilité avec deux types de crayons (B, HB).
+Nous avons ensuite imprimé notre circuit PCB après validation de l'équipe pédagogique.  
+Nous avons utilisé une carte Arduino pour la lecture des mesures et la création des fonctions relatives à l'écran OLED, au module Bluetooth ainsi qu'a l'encodeur rotatoire.  
+Avec le site MIT App Inventor, nous avons développé une application Android qui a pour but de recevoir des données via Bluetooth.  
+En ce qui concerne le Banc de test, nous avons effectué un test de rayon de courbure et un test de répétabilité avec deux types de crayons (B, HB).  
 
 
 
@@ -173,7 +173,7 @@ Le site internet de création d'application [_MIT App Inventor_](https://appinve
 
 ### Rayon de courbure
 
----
+
 Nous avons effectué différents tests pour étudier l'influence du rayon de courbure sur la résistance de notre capteur. Pour cela, nous avons créé un banc de test "low-cost" en prenant différents objets cylindriques présents dans la salle d'instrumentation du Génie Physique (GP).
 
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/fd57650aebb21b7f047258168513507125dd6fa7/Images/Rayons_de_courbure_tous_les_objets.JPG)
@@ -186,7 +186,7 @@ Nous avons alors tracé deux graphes avec leurs courbes de tendance:
 
 ### Répétabilité
 
----
+
 Ici, nous avons voulu mesurer la répétabilité de notre capteur, c'est-à-dire, à partir de combien de mesures notre capteur n'est plus fiable.
 Pour y arriver, nous avons créé notre propre banc de test à partir d'un servo-moteur (et son code Arduino), de scotch, de carton et d'un support en rigide. Nous avons agrandi l'aile fixé au servo-moteur grâce à un morceau de carton et nous avons scotché ce servo-moteur à un support rigide que nous avons lui même scotché sur le bord d'un meuble. En ce qui concerne le capteur, nous avons scotché un support rigide sur le bord du même meuble à une petite distance de notre servo-moteur, ce qui nous a permis de positionner les pinces métalliques et notre capteur face à l'aile du servo-moteur qui va effectuer des aller-retours pour que le capteur subisse des cycles d'extension/compression.  
 
@@ -202,7 +202,7 @@ Après des mesures pour des crayons de type B et des crayons de type HB, nous av
 
 ---
 
-Datasheet en format pdf à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/5e02ecc9f3577d267857b414918c29e9b6da50dd/Datasheet/Datasheet_Capteur_papier.pdf)
+Datasheet en format pdf à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/5e02ecc9f3577d267857b414918c29e9b6da50dd/Datasheet/Datasheet_Capteur_papier.pdf).
 
 
 
