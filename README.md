@@ -10,14 +10,16 @@ Ce repository Git contient les ressources nécessaire pour le projet 2022 qui s'
   - [Sommaire](#sommaire)
   - [Livrables](#livrables)
   - [Description](#description)
-  - [Projet KICAD](#projet-kicad)
+  - [Shield PCB](#shield-pcb)
   - [Arduino](#arduino)
     - [Bibliotèques](#bibliotèques)
-    - [Notre code arduino](#notre-code-arduino)
+    - [Code Arduino](#code-arduino)
   - [Application Android APK](#application-android-apk)
     - [MIT App inventor](#mit-app-inventor)
     - [Notre application](#notre-application)
   - [Banc de test](#banc-de-test)
+    - [Test rayon de courbure](#test-rayon-de-courbure)
+    - [Test répétabilité](#test-répétabilité)
   - [Datasheet](#datasheet)
   - [Information sur les auteurs](#information-sur-les-auteurs)
 
@@ -48,21 +50,12 @@ En ce qui concerne le Banc de test, nous avons effectué un test de rayon de cou
 
 
 
-## Projet KICAD
+## Shield PCB
 
 ---
 
-Sur le logiciel KICAD nous avons créé les modèles pour l'écran OLED, le module Bluetooth, l'encodeur rotatoire et l'amplificateur transimpédance. Nous avons ensuite créé ou assigné des empreintes à chaque composante du circuit électronique avant de créé le chevelu du PCB et de modéliser notre PCB en 3D pour vérifier qu'aucun élément ne se superpose.
+Sur le logiciel KICAD nous avons créé des modèles pour l'amplificateur transimpédance, le module Bluetooth, l'écran OLED et l'encodeur rotatoire. Nous avons ensuite créé ou assigné des empreintes à chaque composante du circuit électronique (amplificateur, Bluetooth, OLED, encodeur rotatoire mais aussi résitances et capacités). Puis, nous avons tracé le chevelu du PCB et enfin nous avons modélisé notre PCB en 3D pour vérifier qu'aucun élément ne se superpose et qu'il n'y aura pas de problème lors de la réalisation du PCB.  
 
-Le projet sur le logiciel KICAD permet de:
-
-- Manipuler le PCB sous forme de Shield pour carte Arduino UNO
-- Interfacer capteur graphite via un circuit transimpédance
-- Interfacer un module Bluetooth
-- Interfacer un écran OLED
-- Interfacer un encodeur rotatoire
-  
-  
 
 Projet KICAD avec fichiers formats pdf et format GERBER à télécharger [_ici_]  
   
@@ -125,11 +118,16 @@ Modélisation 3D du PCB:
 ## Arduino
 
 ---
-En résumé, notre code Arduino permet de mesurer la tension en sortie du circuit transimpédance, de calculer la résistance du associée du capteur puis d'afficher ces deux valeurs (tension et résistance) sur l'écran OLED et de les envoyer par Bluetooth à l'application APK.
-Les valeurs de tension et de résistance sont aussi visibles dans le moniteur série.
+Notre code Arduino permet :
 
-Le code Arduino permet d'afficher les valeurs de tension et de résistance du capteur dans la console. Ces valeurs seront aussi affichées sur l'écran OLED et envoyées par Bluetooth à notre application APK.
-L'encodeur rotatoire permet de choisir d'afficher la résistance sur l'écran OLED en Ω, kΩ ou MΩ.
+- de mesurer la tension en sortie du circuit transimpédance
+- de calculer la résistance correspondante du capteur grâce à la tension mesurée (fonction de transfert)
+- de visualiser ces valeurs (tension et résistance) dans le moniteur série
+- d'afficher ces deux valeurs (tension et résistance) sur l'écran OLED
+- d'envoyer les valeurs de résistance par Bluetooth à l'application APK
+- d'utiliser un encodeur rotatoire pour choisir d'afficher sur l'écran OLED et d'envoyer par Bluetooth les valeurs de résistance en Ω, kΩ ou MΩ
+
+
 
 ### Bibliotèques
 
@@ -139,15 +137,7 @@ L'encodeur rotatoire permet de choisir d'afficher la résistance sur l'écran OL
 - Installer la bibliothèque ["Adafruit_SSD1306.h"]
 
 
-### Notre code arduino
-
-Notre code Arduino permet de:
-
-- Mesurer la tension de sortie du circuit transimpédance
-- Calculer la résistance du capteur de graphite connaissant la fonction de transfert du conditionneur
-- Envoyer la mesure de la tension et de la resistance via Bluetooth sur 1 octet
-- Afficher les mesures de tension, de résistance et possède un menu pour choisir entre un offset et un gain numérique sur un écran OLED
-- Gèrer l'encodeur rotatoire
+### Code Arduino
 
 
 
@@ -160,13 +150,9 @@ Notre code Arduino permet de:
 ---
 L'application android développée sur MIT App Inventor sert à:
 
-- Récupérer la mesure de tension du capteur graphite
-- Récupérer la valeur de la résistance du capteur graphite (calculée par le code Arduino à partir de la tension mesurée) 
+- Récupérer la valeur de la résistance du capteur graphite (calculée par le code Arduino à partir de la tension mesurée)
+- Afficher cette valeur de résistance
 - Tracer un graphique qui décrit l'évolution de la résistance du capteur en fonction du temps
-
-
-L'application android permet de lire la valeur de la résistance du capteur.
-Grâce aux données accumulées, l'application trace une courbe représentant la variation de résistance en fonction du temps.
 
 
 ### MIT App inventor
@@ -178,15 +164,34 @@ Le site internet de création d'application [_MIT App Inventor_](https://appinve
 ---
 
 
+
+
+
 ## Banc de test
 
 ---
+
+### Test rayon de courbure
+
+---
+
+
+
+
+
+### Test répétabilité
+
+---
+
+
 
 
 
 ## Datasheet
 
 ---
+
+Datasheet en format pdf à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/5e02ecc9f3577d267857b414918c29e9b6da50dd/Datasheet/Datasheet_Capteur_papier.pdf)
 
 
 
@@ -199,4 +204,3 @@ Edouard FRANCO / Pablo ALONSO RODRIGUEZ
 - pablo.alonsorgz@gmail.com
 
 Étudiants à l'INSA de Toulouse en 4ème année Génie Physique
-
