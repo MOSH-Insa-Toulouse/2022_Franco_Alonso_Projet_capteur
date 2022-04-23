@@ -176,15 +176,7 @@ Le site internet de création d'application [_MIT App Inventor_](https://appinve
 ---
 Nous avons effectué différents tests pour étudier l'influence du rayon de courbure sur la résistance de notre capteur. Pour cela, nous avons créé un banc de test "low-cost" en prenant différents objets cylindriques présents dans la salle d'instrumentation du Génie Physique (GP).
 
-![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/e545ed055c320c5fe0618d8b1ed5f4e90c377c95/Images/Rayon_de_courbure_01.jpg)
-
-![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/e545ed055c320c5fe0618d8b1ed5f4e90c377c95/Images/Rayon_de_courbure_02.jpg)
-
-![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/e545ed055c320c5fe0618d8b1ed5f4e90c377c95/Images/Rayon_de_courbure_03.jpg)
-
-![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/e545ed055c320c5fe0618d8b1ed5f4e90c377c95/Images/Rayon_de_courbure_04.jpg)
-
-![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/e545ed055c320c5fe0618d8b1ed5f4e90c377c95/Images/Rayon_de_courbure_05.jpg)
+![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/fd57650aebb21b7f047258168513507125dd6fa7/Images/Rayons_de_courbure_tous_les_objets.JPG)
 
 Puis, nous avons enroulé notre capteur autour de ces objets cylindriques dans un sens comme dans l'autre (extension/compression) et mesuré les variations de résistance pour les crayons de type B et de type HB.
 Nous avons alors tracé deux graphes avec leurs courbes de tendance:  
