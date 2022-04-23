@@ -187,7 +187,7 @@ Pour y arriver, nous avons créé notre propre banc de test à partir d'un servo
 
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/9a6179c9a64ad83f9c8b5cb9e331d1c981edc935/Images/Test_Repetabilite_01.jpg)  
 
-![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/469d8a52910f487a39b89d7652cd1226eb0d3d92/Images/Test_Repetabilite_video.mp4)
+![Vidéo test de répétabilité](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/469d8a52910f487a39b89d7652cd1226eb0d3d92/Images/Test_Repetabilite_video.mp4)
 
 Après des mesures pour des crayons de type B et des crayons de type HB, nous avons obtenu deux courbes représentant l'évolution de la résistance mesurée par le capteur en fonction du nombre de cyles d'extension/compression effectués.  
 
