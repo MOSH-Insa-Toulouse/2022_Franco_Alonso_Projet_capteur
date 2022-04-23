@@ -2,8 +2,8 @@
 #include <SoftwareSerial.h>
 #include <Arduino.h>
 #include <string.h>
-#define rxPin 11 //Broche 7 en tant que RX, à raccorder sur TX du HC-05
-#define txPin 10 //Broche 6 en tant que tx, à raccorder sur TX du HC-05
+#define rxPin 11 //Broche 11 en tant que RX, à raccorder sur TX du HC-05
+#define txPin 10 //Broche 10 en tant que tx, à raccorder sur TX du HC-05
 #define baudrate 9600
 #define encoder0PinA  2  //CLK Output A Do not use other pin for clock as we are using interrupt
 #define encoder0PinB  3  //DT Output B
@@ -68,7 +68,7 @@ int R2=1000;
 
 
 void Bluetooth_write(double Rs){
-  double Res = Rs/10000;
+  double Res = Rs;
   mySerial.println(Res);
   delay(500);
 }
@@ -77,17 +77,18 @@ void Bluetooth_write(double Rs){
 
 void mesure(){
   // read the input on analog pin 0:
-  double  sensorValue = analogRead(A0);                   //on divise par 4 pour être sur une plage de 256 et non une plage de 1024 car l'analogRead donne une valeur entre 0 et 1023
+  double  sensorValue = analogRead(A0);         //on divise par 4 pour être sur une plage de 256 et non une plage de 1024 car l'analogRead donne une valeur entre 0 et 1023
   
   // Convert the analog reading (which goes from 0 - 1023) to a voltage (0 - 5V):
-  Vadc = sensorValue * (5.0 / 1023.0);
+  Vadc = sensorValue * (Vcc / 1023.0);
  
-  Rs = ((1+R3/R2)*R1*(Vcc/Vadc))-R1-R5;
+  Rs = ((1+R3/R2)*R1*(1023/Vadc))-R1-R5;
   //Serial.println(Vadc); 
 }
 
-
 // on voit sur le moniteur que Rs varie entre 35000 et 15M environ
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 void setup() {
   Serial.begin(9600);
@@ -105,7 +106,7 @@ void setup() {
 
 void loop() {
  value = digitalRead(encoder0PinA);
-     if (value != rotation){ // we use the DT pin to find out which way we turning.
+     if (value != rotation){ // we use the DT pin to find out which way we are turning.
      if (digitalRead(encoder0PinB) != value) {  // Clockwise
        RotPosition ++; 
        if (RotPosition==3){
@@ -169,6 +170,6 @@ void loop() {
      //Serial.println(RotPosition);
      
      Serial.println(Rs);
-     Serial.println(Vadc);
+     //Serial.println(Vadc);
      // this will print in the serial monitor.  
 }
