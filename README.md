@@ -59,8 +59,8 @@ Sur le logiciel KICAD nous avons créé des modèles pour l'amplificateur transi
 
 
 Projet KICAD avec fichiers formats pdf et format GERBER à télécharger [_ici_]  
-  
-  
+
+
 
 Schéma du circuit électrique sur LTSpice:  
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/00df7a800f7fe16d923ac5965e24b1b7b5068f73/Images/LTSpice.PNG)
@@ -186,6 +186,8 @@ Ici, nous avons voulu mesurer la répétabilité de notre capteur, c'est-à-dire
 Pour y arriver, nous avons créé notre propre banc de test à partir d'un servo-moteur (et son code Arduino), de scotch, de carton et d'un support en rigide. Nous avons agrandi l'aile fixé au servo-moteur grâce à un morceau de carton et nous avons scotché ce servo-moteur à un support rigide que nous avons lui même scotché sur le bord d'un meuble. En ce qui concerne le capteur, nous avons scotché un support rigide sur le bord du même meuble à une petite distance de notre servo-moteur, ce qui nous a permis de positionner les pinces métalliques et notre capteur face à l'aile du servo-moteur qui va effectuer des aller-retours pour que le capteur subisse des cycles d'extension/compression.  
 
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/9a6179c9a64ad83f9c8b5cb9e331d1c981edc935/Images/Test_Repetabilite_01.jpg)  
+
+![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/469d8a52910f487a39b89d7652cd1226eb0d3d92/Images/Test_Repetabilite_video.mp4)
 
 Après des mesures pour des crayons de type B et des crayons de type HB, nous avons obtenu deux courbes représentant l'évolution de la résistance mesurée par le capteur en fonction du nombre de cyles d'extension/compression effectués.  
 
