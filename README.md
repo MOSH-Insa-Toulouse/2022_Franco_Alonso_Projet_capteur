@@ -187,25 +187,22 @@ Nous avons effectué différents tests pour étudier l'influence du rayon de cou
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/e545ed055c320c5fe0618d8b1ed5f4e90c377c95/Images/Rayon_de_courbure_05.jpg)
 
 Puis, nous avons enroulé notre capteur autour de ces objets cylindriques dans un sens comme dans l'autre (extension/compression) et mesuré les variations de résistance pour les crayons de type B et de type HB.
-Nous avons alors tracé deux graphes avec leurs courbes de tendance:
+Nous avons alors tracé deux graphes avec leurs courbes de tendance:  
 
-![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/8d0fe521a15a15cbfe44b2dac85fea08def5654b/Images/Graphe_Rayon_de_courbure_Extension.JPG°
-
-![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/8d0fe521a15a15cbfe44b2dac85fea08def5654b/Images/Graphe_Rayon_de_courbure_Compression.JPG)
-
+![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/0bd03763ba0da2488beb34199330a152889df189/Images/Graphe_Rayon_de_courbure.JPG)  
 
 
 ### Répétabilité
 
 ---
 Ici, nous avons voulu mesurer la répétabilité de notre capteur, c'est-à-dire, à partir de combien de mesures notre capteur n'est plus fiable.
-Pour y arriver, nous avons créé notre propre banc de test à partir d'un servo-moteur (et son code Arduino), de scotch, de carton et d'un support en rigide. Nous avons agrandi l'aile fixé au servo-moteur grâce à un morceau de carton et nous avons scotché ce servo-moteur à un support rigide que nous avons lui même scotché sur le bord d'un meuble. En ce qui concerne le capteur, nous avons scotché un support rigide sur le bord du même meuble à une petite distance de notre servo-moteur, ce qui nous a permis de positionner les pinces métalliques et notre capteur face à l'aile du servo-moteur qui va effectuer des aller-retours pour que le capteur subisse des cycles d'extension/compression.
+Pour y arriver, nous avons créé notre propre banc de test à partir d'un servo-moteur (et son code Arduino), de scotch, de carton et d'un support en rigide. Nous avons agrandi l'aile fixé au servo-moteur grâce à un morceau de carton et nous avons scotché ce servo-moteur à un support rigide que nous avons lui même scotché sur le bord d'un meuble. En ce qui concerne le capteur, nous avons scotché un support rigide sur le bord du même meuble à une petite distance de notre servo-moteur, ce qui nous a permis de positionner les pinces métalliques et notre capteur face à l'aile du servo-moteur qui va effectuer des aller-retours pour que le capteur subisse des cycles d'extension/compression.  
 
-![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/0bd03763ba0da2488beb34199330a152889df189/Images/Graphe_Rayon_de_courbure.JPG)
+![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/9a6179c9a64ad83f9c8b5cb9e331d1c981edc935/Images/Test_Repetabilite_01.jpg)  
 
-Après des mesures pour des crayons de type B et des crayons de type HB, nous avons obtenu deux courbes représentant l'évolution de la résistance mesurée par le capteur en fonction du nombre de cyles d'extension/compression effectués.
+Après des mesures pour des crayons de type B et des crayons de type HB, nous avons obtenu deux courbes représentant l'évolution de la résistance mesurée par le capteur en fonction du nombre de cyles d'extension/compression effectués.  
 
-![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/0bd03763ba0da2488beb34199330a152889df189/Images/Graphe_Repetabilite.JPG)
+![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/0bd03763ba0da2488beb34199330a152889df189/Images/Graphe_Repetabilite.JPG)  
 
 
 
