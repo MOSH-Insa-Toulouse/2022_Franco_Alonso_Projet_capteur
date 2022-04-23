@@ -48,6 +48,7 @@ Nous avons ensuite imprimé notre circuit PCB après validation de l'équipe pé
 Nous avons utilisé une carte Arduino pour la lecture des mesures et la création des fonctions relatives à l'écran OLED, au module Bluetooth ainsi qu'a l'encodeur rotatoire.  
 
 Avec le site MIT App Inventor, nous avons développé une application Android qui a pour but de recevoir des données via Bluetooth.  
+
 En ce qui concerne le Banc de test, nous avons effectué un test de rayon de courbure et un test de répétabilité avec deux types de crayons (B, HB).  
 
 
@@ -189,6 +190,9 @@ Pour y arriver, nous avons créé notre propre banc de test à partir d'un servo
 Après des mesures pour des crayons de type B et des crayons de type HB, nous avons obtenu deux courbes représentant l'évolution de la résistance mesurée par le capteur en fonction du nombre de cyles d'extension/compression effectués.  
 
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/0bd03763ba0da2488beb34199330a152889df189/Images/Graphe_Repetabilite.JPG)  
+
+Code Arduino du servo-moteur:  
+![alt text]()
 
 
 ---
