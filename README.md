@@ -2,30 +2,30 @@
 
 Ce repository Git contient les ressources nécessaire pour le projet 2022 qui s'inscrit dans l'UF *"Du capteur au banc de Test"* de l'INSA de Toulouse, 4ème année de Génie Physique.
 
+---
 ## Sommaire
 
----
 
 - [2022_Franco_Alonso_Projet_capteur](#2022_franco_alonso_projet_capteur)
   - [Sommaire](#sommaire)
-  - [Livrables](#livrables)
-  - [Description](#description)
-  - [Shield PCB](#shield-pcb)
-  - [Arduino](#arduino)
-    - [Bibliothèques](#bibliothèques)
-    - [Code Arduino](#code-arduino)
-  - [Application Android APK](#application-android-apk)
-    - [MIT App inventor](#mit-app-inventor)
-    - [Notre application](#notre-application)
-  - [Banc de test](#banc-de-test)
-    - [Rayon de courbure](#rayon-de-courbure)
-    - [Répétabilité](#répétabilité)
-  - [Datasheet](#datasheet)
-  - [Information sur les auteurs](#information-sur-les-auteurs)
-
-## Livrables
+  - [1) Livrables](#1-livrables)
+  - [2) Description](#2-description)
+  - [3) Shield PCB](#3-shield-pcb)
+  - [4) Arduino](#4-arduino)
+    - [4.1) Bibliothèques](#41-bibliothèques)
+    - [4.2) Code Arduino](#42-code-arduino)
+  - [5) Application Android APK](#5-application-android-apk)
+    - [5.1) MIT App inventor](#51-mit-app-inventor)
+    - [5.2) Notre application](#52-notre-application)
+  - [6) Banc de test](#6-banc-de-test)
+    - [6.1) Rayon de courbure](#61-rayon-de-courbure)
+    - [6.2) Répétabilité](#62-répétabilité)
+  - [7) Datasheet](#7-datasheet)
+  - [8) Information sur les auteurs](#8-information-sur-les-auteurs)
 
 ---
+## 1) Livrables
+
 
 - Shield PCB réalisé avec KiCad
 - Code Arduino permettant la mesure de la resistance et de la tension du capteur, ainsi que le contrôle d'un module Bluetooth, d'un écran OLED et d'un encodeur rotatoire
@@ -33,26 +33,26 @@ Ce repository Git contient les ressources nécessaire pour le projet 2022 qui s'
 - Protocole et code Arduino du Banc de test
 - Datasheet du capteur de déformation
 
-
-## Description
-
 ---
-Dans le cadre de l'UF MOSH, nous avons conçu un capteur résistif composé de matériaux peu chers. Un simple papier et un crayon nous permettent de créer ce capteur.  
-Ici, le phénomène physique est l'effet tunnel, en effet, il existe un lien entre la conduction des électrons et la distance interatomique du réseau percolet.  
-En faisant varier la distance séparant les particules du réseau (en pliant une feuille de papier sur laquelle on aura déposé du graphite par exemple), la conductivité du graphite varie, la résistivité varier également, et donc, la résistance variera aussi en fonction des dimensions du capteur. C'est cette propriété que l'on va exploiter afin de créer notre capteur résistif.
+## 2) Description
+
+Dans le cadre de l'UF MOSH, nous avons conçu un capteur résistif composé de matériaux peu chers. Un simple papier et un crayon nous permettent de créer ce capteur.
+
+Ici, le phénomène physique est l'effet tunnel, en effet, il existe un lien entre la conduction des électrons et la distance interatomique du réseau percolet. En faisant varier la distance séparant les particules du réseau (en pliant une feuille de papier sur laquelle on aura déposé du graphite par exemple), la conductivité du graphite varie, la résistivité varier également, et donc, la résistance variera aussi en fonction des dimensions du capteur. C'est cette propriété que l'on va exploiter afin de créer notre capteur résistif.  
+
 Nous avons également implémenté  un shield sur notre chaine de mesures. Ce dernier a été conçu a l'aide du logiciel KICAD et aura un rôle de conditionneur du signal. Le shield est composé d'un amplificateur transimpédance, d'un module Bluetooth, d'un écran OLED, d'un encodeur rotatoire ainsi que d'une entrée analogique pour le capteur résistif.  
+
 Pour finir, nous avons effectué l'ensemble des tests du circuit sur le logiciel LTSpice (voir [_Rapport LTSpice_](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/8504636d878c9423babecade3b70e7a892836c6b/Rapport_LTSpice.pdf)).  
 
 Nous avons ensuite imprimé notre circuit PCB après validation de l'équipe pédagogique.  
 Nous avons utilisé une carte Arduino pour la lecture des mesures et la création des fonctions relatives à l'écran OLED, au module Bluetooth ainsi qu'a l'encodeur rotatoire.  
+
 Avec le site MIT App Inventor, nous avons développé une application Android qui a pour but de recevoir des données via Bluetooth.  
 En ce qui concerne le Banc de test, nous avons effectué un test de rayon de courbure et un test de répétabilité avec deux types de crayons (B, HB).  
 
 
-
-## Shield PCB
-
 ---
+## 3) Shield PCB
 
 Sur le logiciel KICAD nous avons créé des modèles pour l'amplificateur transimpédance, le module Bluetooth, l'écran OLED et l'encodeur rotatoire. Nous avons ensuite créé ou assigné des empreintes à chaque composante du circuit électronique (amplificateur, Bluetooth, OLED, encodeur rotatoire mais aussi résitances et capacités). Puis, nous avons tracé le chevelu du PCB et enfin nous avons modélisé notre PCB en 3D pour vérifier qu'aucun élément ne se superpose et qu'il n'y aura pas de problème lors de la réalisation du PCB.  
 
@@ -114,10 +114,9 @@ Modélisation 3D du PCB:
 
 
 
-
-## Arduino
-
 ---
+## 4) Arduino
+
 Notre code Arduino permet :
 
 - de mesurer la tension en sortie du circuit transimpédance
@@ -128,8 +127,7 @@ Notre code Arduino permet :
 - d'utiliser un encodeur rotatoire pour choisir d'afficher sur l'écran OLED et d'envoyer par Bluetooth les valeurs de résistance en Ω, kΩ ou MΩ
 
 
-
-### Bibliothèques
+### 4.1) Bibliothèques
 
 - Installer la bibliothèque ["SoftwareSerial.h"]
 - Installer la bibliothèque ["Arduino.h"]
@@ -137,17 +135,16 @@ Notre code Arduino permet :
 - Installer la bibliothèque ["Adafruit_SSD1306.h"]
 
 
-### Code Arduino
+### 4.2) Code Arduino
 
 
 
 !!!!!! METTRE LE CODE ARDUINO !!!!!!!!
 
 
-
-## Application Android APK
-
 ---
+## 5) Application Android APK
+
 L'application android développée sur MIT App Inventor sert à:
 
 - Récupérer la valeur de la résistance du capteur graphite (calculée par le code Arduino à partir de la tension mesurée)
@@ -155,23 +152,21 @@ L'application android développée sur MIT App Inventor sert à:
 - Tracer un graphique qui décrit l'évolution de la résistance du capteur en fonction du temps
 
 
-### MIT App inventor
+### 5.1) MIT App inventor
 
 Le site internet de création d'application [_MIT App Inventor_](https://appinventor.mit.edu/)
 
-### Notre application
+### 5.2) Notre application
+
+
+Capture d'écran du code
+
 
 ---
+## 6) Banc de test
 
 
-
-
-
-## Banc de test
-
----
-
-### Rayon de courbure
+### 6.1) Rayon de courbure
 
 
 Nous avons effectué différents tests pour étudier l'influence du rayon de courbure sur la résistance de notre capteur. Pour cela, nous avons créé un banc de test "low-cost" en prenant différents objets cylindriques présents dans la salle d'instrumentation du Génie Physique (GP).
@@ -184,8 +179,7 @@ Nous avons alors tracé deux graphes avec leurs courbes de tendance:
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/0bd03763ba0da2488beb34199330a152889df189/Images/Graphe_Rayon_de_courbure.JPG)  
 
 
-### Répétabilité
-
+### 6.2) Répétabilité
 
 Ici, nous avons voulu mesurer la répétabilité de notre capteur, c'est-à-dire, à partir de combien de mesures notre capteur n'est plus fiable.
 Pour y arriver, nous avons créé notre propre banc de test à partir d'un servo-moteur (et son code Arduino), de scotch, de carton et d'un support en rigide. Nous avons agrandi l'aile fixé au servo-moteur grâce à un morceau de carton et nous avons scotché ce servo-moteur à un support rigide que nous avons lui même scotché sur le bord d'un meuble. En ce qui concerne le capteur, nous avons scotché un support rigide sur le bord du même meuble à une petite distance de notre servo-moteur, ce qui nous a permis de positionner les pinces métalliques et notre capteur face à l'aile du servo-moteur qui va effectuer des aller-retours pour que le capteur subisse des cycles d'extension/compression.  
@@ -197,18 +191,15 @@ Après des mesures pour des crayons de type B et des crayons de type HB, nous av
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/0bd03763ba0da2488beb34199330a152889df189/Images/Graphe_Repetabilite.JPG)  
 
 
-
-## Datasheet
-
 ---
+## 7) Datasheet
 
 Datasheet en format pdf à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/5e02ecc9f3577d267857b414918c29e9b6da50dd/Datasheet/Datasheet_Capteur_papier.pdf).
 
 
-
-## Information sur les auteurs
-
 ---
+## 8) Information sur les auteurs
+
 Edouard FRANCO / Pablo ALONSO RODRIGUEZ
 
 - edouard.franco@free.fr
