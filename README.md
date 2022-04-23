@@ -12,14 +12,14 @@ Ce repository Git contient les ressources nécessaire pour le projet 2022 qui s'
   - [Description](#description)
   - [Shield PCB](#shield-pcb)
   - [Arduino](#arduino)
-    - [Bibliotèques](#bibliotèques)
+    - [Bibliothèques](#bibliothèques)
     - [Code Arduino](#code-arduino)
   - [Application Android APK](#application-android-apk)
     - [MIT App inventor](#mit-app-inventor)
     - [Notre application](#notre-application)
   - [Banc de test](#banc-de-test)
-    - [Test rayon de courbure](#test-rayon-de-courbure)
-    - [Test répétabilité](#test-répétabilité)
+    - [Rayon de courbure](#rayon-de-courbure)
+    - [Répétabilité](#répétabilité)
   - [Datasheet](#datasheet)
   - [Information sur les auteurs](#information-sur-les-auteurs)
 
@@ -129,7 +129,7 @@ Notre code Arduino permet :
 
 
 
-### Bibliotèques
+### Bibliothèques
 
 - Installer la bibliothèque ["SoftwareSerial.h"]
 - Installer la bibliothèque ["Arduino.h"]
@@ -171,15 +171,15 @@ Le site internet de création d'application [_MIT App Inventor_](https://appinve
 
 ---
 
-### Test rayon de courbure
+### Rayon de courbure
 
 ---
+Nous avons effectué différents tests pour étudier l'influence du rayon de courbure sur la résistance de notre capteur. Pour cela, nous avons créé un banc de test "low-cost" en prenant différents objets cylindriques présents dans la salle d'instrumentation du Génie Physique (GP).
 
 
 
 
-
-### Test répétabilité
+### Répétabilité
 
 ---
 
