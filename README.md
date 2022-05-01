@@ -140,7 +140,6 @@ Notre code Arduino permet :
 
 
 ```
-
 // Pour le Bluetooth
 #include <SoftwareSerial.h>
 #include <Arduino.h>
@@ -316,8 +315,6 @@ void loop() {
      //Serial.println(Vadc);
      // this will print in the serial monitor.  
 }
-
-
 ```
 
 
@@ -374,7 +371,6 @@ Après des mesures pour des crayons de type B et des crayons de type HB, nous av
 Code Arduino du servo-moteur:  
 
 ```
-
 // Sweep by BARRAGAN
 #include <Servo.h>
 
@@ -404,7 +400,6 @@ void loop()
     delay(5);                       // waits 5ms for the servo to reach the position
   }
 } 
-
 ```
 
 
