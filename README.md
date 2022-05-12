@@ -12,8 +12,6 @@ Ce repository Git contient les ressources nécessaire pour le projet 2022 qui s'
   - [2) Description](#2-description)
   - [3) Shield PCB](#3-shield-pcb)
   - [4) Arduino](#4-arduino)
-    - [4.1) Bibliothèques](#41-bibliothèques)
-    - [4.2) Code Arduino](#42-code-arduino)
   - [5) Application Android APK](#5-application-android-apk)
     - [5.1) MIT App inventor](#51-mit-app-inventor)
     - [5.2) Notre application](#52-notre-application)
@@ -118,25 +116,14 @@ Modélisation 3D du PCB:
 ---
 ## 4) Arduino
 
-Notre code Arduino permet :
+Voici notre code Arduino qui permet de :
 
-- de mesurer la tension en sortie du circuit transimpédance
-- de calculer la résistance correspondante du capteur grâce à la tension mesurée (fonction de transfert)
-- de visualiser ces valeurs (tension et résistance) dans le moniteur série
-- d'afficher ces deux valeurs (tension et résistance) sur l'écran OLED
-- d'envoyer les valeurs de résistance par Bluetooth à l'application APK
-- d'utiliser un encodeur rotatoire pour choisir d'afficher sur l'écran OLED et d'envoyer par Bluetooth les valeurs de résistance en Ω, kΩ ou MΩ
-
-
-### 4.1) Bibliothèques
-
-- Installer la bibliothèque ["SoftwareSerial.h"]
-- Installer la bibliothèque ["Arduino.h"]
-- Installer la bibliothèque ["string.h"]
-- Installer la bibliothèque ["Adafruit_SSD1306.h"]
-
-
-### 4.2) Code Arduino
+- mesurer la tension en sortie du circuit transimpédance
+- calculer la résistance correspondante du capteur grâce à la tension mesurée (fonction de transfert)
+- visualiser ces valeurs (tension et résistance) dans le moniteur série
+- afficher ces deux valeurs (tension et résistance) sur l'écran OLED
+- envoyer les valeurs de résistance par Bluetooth à l'application APK
+- utiliser un encodeur rotatoire pour choisir d'afficher sur l'écran OLED et d'envoyer par Bluetooth les valeurs de résistance en Ω, kΩ ou MΩ
 
 
 ```
