@@ -319,8 +319,11 @@ Le site internet de création d'application [_MIT App Inventor_](https://appinve
 
 ### 5.2) Notre application
 
+Interface de l'application sur un smartphone :  
+![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/2fc7368aa926cd5d8d8e4a7a305ebf312bf52df6/Images/Interface_application.JPG)  
 
-Capture d'écran du code
+Schéma en block du code de l'application :  
+![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/2fc7368aa926cd5d8d8e4a7a305ebf312bf52df6/Images/Code_application.JPG)  
 
 
 ---
