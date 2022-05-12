@@ -56,9 +56,6 @@ En ce qui concerne le Banc de test, nous avons effectué un test de rayon de cou
 Sur le logiciel KICAD nous avons créé des modèles pour l'amplificateur transimpédance, le module Bluetooth, l'écran OLED et l'encodeur rotatoire. Nous avons ensuite créé ou assigné des empreintes à chaque composante du circuit électronique (amplificateur, Bluetooth, OLED, encodeur rotatoire mais aussi résitances et capacités). Puis, nous avons tracé le chevelu du PCB et enfin nous avons modélisé notre PCB en 3D pour vérifier qu'aucun élément ne se superpose et qu'il n'y aura pas de problème lors de la réalisation du PCB.  
 
 
-Projet KICAD avec fichiers formats pdf et format GERBER à télécharger [_ici_]  
-
-
 
 Schéma du circuit électrique sur LTSpice:  
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/00df7a800f7fe16d923ac5965e24b1b7b5068f73/Images/LTSpice.PNG)
@@ -123,7 +120,7 @@ Voici notre code Arduino qui permet de :
 - visualiser ces valeurs (tension et résistance) dans le moniteur série
 - afficher ces deux valeurs (tension et résistance) sur l'écran OLED
 - envoyer les valeurs de résistance par Bluetooth à l'application APK
-- utiliser un encodeur rotatoire pour choisir d'afficher sur l'écran OLED et d'envoyer par Bluetooth les valeurs de résistance en Ω, kΩ ou MΩ
+- utiliser un encodeur rotatoire pour choisir d'afficher sur l'écran OLED et d'envoyer par Bluetooth les valeurs de résistance en Ω, kΩ ou MΩ  
 
 
 ```
