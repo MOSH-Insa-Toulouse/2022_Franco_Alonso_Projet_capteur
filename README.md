@@ -324,7 +324,7 @@ Interface de l'application sur un smartphone :
 
 Schéma en block du code de l'application :  
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/24223030ee5c42ca74b3d679e8572a6390a79d57/Images/Code_application_01.JPG)  
-![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/24223030ee5c42ca74b3d679e8572a6390a79d57/Images/Code_application_02.JPG)  
+![alt text](https://github.com/MOSH-Insa-Toulouse/2022_Franco_Alonso_Projet_capteur/blob/a57c8098e7a8a3ac23fe8205c63536212a115214/Images/Code_application_02.JPG)  
 
 
 ---
