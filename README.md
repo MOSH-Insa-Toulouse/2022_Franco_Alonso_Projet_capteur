@@ -130,7 +130,7 @@ Voici notre code Arduino qui permet de :
 #include <Arduino.h>
 #include <string.h>
 #define rxPin 11 //Broche 11 en tant que RX, à raccorder sur TX du HC-05
-#define txPin 10 //Broche 10 en tant que tx, à raccorder sur TX du HC-05
+#define txPin 10 //Broche 10 en tant que TX, à raccorder sur RX du HC-05
 #define baudrate 9600
 #define encoder0PinA  2  //CLK Output A Do not use other pin for clock as we are using interrupt
 #define encoder0PinB  3  //DT Output B
